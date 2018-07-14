@@ -1,0 +1,25 @@
+{
+    "name": "pizepei/wechat-brief",
+    "description": "A highly integrated WeChat public platform class",
+    "type": "project",
+    "keywords": [
+        "WeChat",
+        "integrated",
+    ],
+    "homepage": "https://org.heil.top/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "pizepei",
+            "email": "pizepei@pizepei.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "WechatBrief\\": "./"
+        }
+    }
+}
